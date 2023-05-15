@@ -1,21 +1,37 @@
 //
 //  ContentView.swift
-//  Chapter17
+//  Chapter14
 //
-//  Created by Mike Panitz on 5/14/23.
+//  Created by Mike Panitz on 4/18/23.
 //
 
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        TabView {
+            SelectingTabView()
+                .tabItem {
+                    Image(systemName: "a.circle")
+                    Text("Nav View")
+                }
+            PageView()
+                .tabItem {
+                    Image(systemName: "b.circle")
+                    Text("Buttons")
+                }
+//            NavSepFilesView()
+//                .tabItem {
+//                    Image(systemName: "c.circle")
+//                    Text("Sep Files")
+//                }
         }
-        .padding()
+        .tabItem {
+            Image(systemName: "1.circle")
+            Text("Demos")
+            
+        }
     }
 }
 
