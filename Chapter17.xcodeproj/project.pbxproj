@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E43ED88F2A22C59C005093C5 /* CustomEnvValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43ED88E2A22C59C005093C5 /* CustomEnvValue.swift */; };
+		E43ED8912A22F8CB005093C5 /* CustomtEnvKey_Object.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43ED8902A22F8CB005093C5 /* CustomtEnvKey_Object.swift */; };
 		E45E84022A11EF5F00D35859 /* Exercises.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45E84012A11EF5F00D35859 /* Exercises.swift */; };
 		E45E84052A11F25600D35859 /* SelectingTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45E84042A11F25600D35859 /* SelectingTab.swift */; };
 		E45E84072A11F4C600D35859 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45E84062A11F4C600D35859 /* PageView.swift */; };
+		E4BE15A32A22AAA8008E04A6 /* ShareDataOneWay.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BE15A22A22AAA8008E04A6 /* ShareDataOneWay.swift */; };
+		E4BE15A52A22B1AB008E04A6 /* EnvironmentSharing.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BE15A42A22B1AB008E04A6 /* EnvironmentSharing.swift */; };
 		E4BF10232A11CC0400CC2D2E /* Chapter17App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF10222A11CC0400CC2D2E /* Chapter17App.swift */; };
 		E4BF10252A11CC0400CC2D2E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF10242A11CC0400CC2D2E /* ContentView.swift */; };
 		E4BF10272A11CC0700CC2D2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4BF10262A11CC0700CC2D2E /* Assets.xcassets */; };
@@ -17,9 +21,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E43ED88E2A22C59C005093C5 /* CustomEnvValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomEnvValue.swift; sourceTree = "<group>"; };
+		E43ED8902A22F8CB005093C5 /* CustomtEnvKey_Object.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomtEnvKey_Object.swift; sourceTree = "<group>"; };
 		E45E84012A11EF5F00D35859 /* Exercises.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercises.swift; sourceTree = "<group>"; };
 		E45E84042A11F25600D35859 /* SelectingTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectingTab.swift; sourceTree = "<group>"; };
 		E45E84062A11F4C600D35859 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		E4BE15A22A22AAA8008E04A6 /* ShareDataOneWay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareDataOneWay.swift; sourceTree = "<group>"; };
+		E4BE15A42A22B1AB008E04A6 /* EnvironmentSharing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentSharing.swift; sourceTree = "<group>"; };
 		E4BF101F2A11CC0400CC2D2E /* Chapter17.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chapter17.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4BF10222A11CC0400CC2D2E /* Chapter17App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter17App.swift; sourceTree = "<group>"; };
 		E4BF10242A11CC0400CC2D2E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -41,8 +49,12 @@
 		E45E84032A11EF6500D35859 /* Demos */ = {
 			isa = PBXGroup;
 			children = (
-				E45E84042A11F25600D35859 /* SelectingTab.swift */,
 				E45E84062A11F4C600D35859 /* PageView.swift */,
+				E45E84042A11F25600D35859 /* SelectingTab.swift */,
+				E4BE15A22A22AAA8008E04A6 /* ShareDataOneWay.swift */,
+				E4BE15A42A22B1AB008E04A6 /* EnvironmentSharing.swift */,
+				E43ED88E2A22C59C005093C5 /* CustomEnvValue.swift */,
+				E43ED8902A22F8CB005093C5 /* CustomtEnvKey_Object.swift */,
 			);
 			path = Demos;
 			sourceTree = "<group>";
@@ -154,9 +166,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4BE15A52A22B1AB008E04A6 /* EnvironmentSharing.swift in Sources */,
+				E4BE15A32A22AAA8008E04A6 /* ShareDataOneWay.swift in Sources */,
 				E45E84072A11F4C600D35859 /* PageView.swift in Sources */,
 				E4BF10252A11CC0400CC2D2E /* ContentView.swift in Sources */,
 				E45E84022A11EF5F00D35859 /* Exercises.swift in Sources */,
+				E43ED8912A22F8CB005093C5 /* CustomtEnvKey_Object.swift in Sources */,
+				E43ED88F2A22C59C005093C5 /* CustomEnvValue.swift in Sources */,
 				E45E84052A11F25600D35859 /* SelectingTab.swift in Sources */,
 				E4BF10232A11CC0400CC2D2E /* Chapter17App.swift in Sources */,
 			);

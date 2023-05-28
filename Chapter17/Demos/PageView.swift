@@ -26,6 +26,22 @@ struct PageView: View {
                 .tabItem {
                     Image(systemName: "keyboard.fill")
                 }
+            Text("Seven")
+                .tabItem {
+                    Image(systemName: "heart.fill")
+                }
+            Text("Eight")
+                .tabItem {
+                    Image(systemName: "hare.fill")
+                }
+            Text("Nine")
+                .tabItem {
+                    Image(systemName: "tortoise.fill")
+                }
+            Text("Ten")
+                .tabItem {
+                    Image(systemName: "folder.fill")
+                }
         }
         .tabViewStyle(.page)
         .indexViewStyle(PageIndexViewStyle(backgroundDisplayMode: .always))

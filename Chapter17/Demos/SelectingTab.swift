@@ -38,25 +38,45 @@ struct SelectingTabView: View {
             }
             TabView (selection: $selectedView){
                 Text("One")
+                    .padding(50)
+                    .bold()
+                    .foregroundColor(.white)
+                    .background(Color.red)
                     .tabItem {
                         Image(systemName: "heart.fill")
                         Text("One")
-                    }.tag(1)
+                    }
+                    .tag(1)
                 Text("Two")
+                    .padding(50)
+                    .bold()
+                    .foregroundColor(.black)
+                    .background(Color.orange)
                     .tabItem {
                         Image(systemName: "hare.fill")
                         Text("Two")
-                    }.tag(2)
+                    }
+                    .tag(2)
                 Text("Three")
+                    .padding(50)
+                    .bold()
+                    .foregroundColor(.black)
+                    .background(Color.yellow)
                     .tabItem {
                         Image(systemName: "tortoise.fill")
                         Text("Three")
-                    }.tag(3)
+                    }
+                    .tag(3)
                 Text("Four")
+                    .padding(50)
+                    .bold()
+                    .foregroundColor(.white)
+                    .background(Color.green)
                     .tabItem {
                         Image(systemName: "folder.fill")
                         Text("Four")
-                    }.tag(4)
+                    }
+                    .tag(4)
             }
         }
     }

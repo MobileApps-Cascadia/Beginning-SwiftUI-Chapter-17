@@ -10,27 +10,32 @@ import SwiftUI
 struct ContentView: View {
     
     var body: some View {
-        TabView {
-            SelectingTabView()
-                .tabItem {
-                    Image(systemName: "a.circle")
-                    Text("Nav View")
-                }
-            PageView()
-                .tabItem {
-                    Image(systemName: "b.circle")
-                    Text("Buttons")
-                }
-//            NavSepFilesView()
-//                .tabItem {
-//                    Image(systemName: "c.circle")
-//                    Text("Sep Files")
-//                }
-        }
-        .tabItem {
-            Image(systemName: "1.circle")
-            Text("Demos")
+        NavigationStack {
+            NavigationLink("Basic + Overflow") {
+                PageView()
+            }
+            .padding()
             
+            NavigationLink("Select Tab Programmatically") {
+                SelectingTabView()
+            }
+            .padding()
+
+            NavigationLink("One Way Data Sharing") {
+                ShareDataOneWayView()
+            }
+            .padding()
+
+            NavigationLink("Data Sharing through the Environment") {
+                EnvironmentSharingView()
+            }
+            .padding()
+
+            
+            NavigationLink("Custom Environment Value") {
+                CustomEnvKeyDemo()
+            }
+            .padding()
         }
     }
 }
