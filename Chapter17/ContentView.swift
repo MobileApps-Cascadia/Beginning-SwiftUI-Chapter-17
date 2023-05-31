@@ -36,6 +36,11 @@ struct ContentView: View {
                 CustomEnvKeyDemo()
             }
             .padding()
+            
+            NavigationLink("Luchau Exercise") {
+                Exercise()
+            }
+            .padding()
         }
     }
 }
